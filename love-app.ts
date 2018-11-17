@@ -1,8 +1,9 @@
 import { print } from "introcs";
 
 export let main = async () => {
-  let i = 0;
-  while (i < 1000000) {
+  let i = 9;
+  i++;
+  while (i < 10) {
     print("I love you!");
   }
 };
